@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz App</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="quiz-container" id="quiz">
+			<div class="quiz-header">
+				<h2 id="question">Question text</h2>
+				<ul>
+					<li>
+						<input type="radio" class="answer" name="answer" id="a" />
+						<label for="a" id="a_text">Question </label>
+					</li>
+					<li>
+						<input type="radio" class="answer" name="answer" id="b" />
+						<label for="b" id="b_text">Question </label>
+					</li>
+					<li>
+						<input type="radio" class="answer" name="answer" id="c" />
+						<label for="c" id="c_text">Question </label>
+					</li>
+					<li>
+						<input type="radio" class="answer" name="answer" id="d" />
+						<label for="d" id="d_text">Question </label>
+					</li>
+				</ul>
+			</div>
+			<button id="submit">Submit</button>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
